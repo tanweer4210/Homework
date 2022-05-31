@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/bg-8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+/* Common Css Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  ol,
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container{
+     width: 1170px;
+     margin: 0 auto;
+  }
+  .row{
+     display: flex;
+     flex-wrap: wrap;
+  }
+
+body{
+    background: url("../img/dark-wallpapers.jpg") no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: #fff;
+}
+/* //Common Css End */
+
+/* Nav Section Css Start */
+nav{
+    background-color: darkslategrey;
+}
+nav .row{
+    align-items: center;
+}
+nav .menu{
+    width: 80%;
+}
+
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+ }
+ nav .menu ul li a{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 22px 25px;
+    transition: all .4s linear;
+ }
+ nav .menu ul li:hover a{
+     color: lightslategray;
+ }
+
+  /* Nav Section Css End */
+
+  /* Registor Page Css Start */
+
+.register{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.register h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.register p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.register input{
+    font-size: 15px;
+    padding: 10px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.register button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: 10px 0;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.register button:hover{
+    color: red;
+    cursor: pointer;
+}
+/* Registor Page Css End */
+
+

@@ -1,0 +1,124 @@
+/* Common Css Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  ol,
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container{
+     width: 1170px;
+     margin: 0 auto;
+  }
+  .row{
+     display: flex;
+     flex-wrap: wrap;
+  }
+  /* //Common Css End */
+
+  /* Nav Section Css Start */
+nav{
+    background-color: darkslategrey;
+}
+nav .row{
+    align-items: center;
+}
+nav .menu{
+    width: 80%;
+}
+
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+ }
+ nav .menu ul li a{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 22px 25px;
+    transition: all .4s linear;
+ }
+ nav .menu ul li:hover a{
+     color: lightslategray;
+ }
+
+  /* Nav Section Css End */
+
+  /* Gallery Section Css Start */
+
+#gallery{
+    margin: 0 auto;
+    background-color: #ddd;
+}
+#gallery .section_heading h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #131e29;
+    text-align: center;
+    padding: 15px 0;
+}
+#gallery .section_heading p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+#gallery .gallery-item{
+    width: 25%;
+}
+#gallery .gallery-item .screenshot{
+    width: 270px;
+    height: 200px;
+    background-color: #4bcaff;
+    border-radius: 10px;
+    position: relative;
+    margin: 55px 0 25px 0;
+}
+#gallery .gallery-item .screenshot img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#gallery .gallery-item .screenshot img:hover{
+    cursor: pointer;
+}
+#gallery .gallery-item .screenshot p{
+    background-color: rgba(65, 64, 66, 0.65);
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px 71px;
+    font-size: 12px;
+    font-weight: bold;
+    color: lightblue;
+    transition: all 0.5s linear;
+}
+#gallery .gallery-item .screenshot:hover p{
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+#gallery .gallery-item > p{
+    color: lightslategrey;
+    width: 220px;
+    letter-spacing: 0;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 10px auto;
+} 
+/* Gallery Section Css End */
